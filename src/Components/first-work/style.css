@@ -1,0 +1,35 @@
+.bg{
+    background-image: url('../../Assets/Page-1/achievement_back.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.page-content{
+    position: absolute;
+    top: 0;
+    width: 50%;
+    background-color: white;
+    opacity: 0.5;
+    
+}
+.header h1{
+    text-align: center;
+}
+.img-icon img{
+    background-color: black;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    /* height: 8rem; */
+    width: 14rem;
+    border: 2px solid black;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
